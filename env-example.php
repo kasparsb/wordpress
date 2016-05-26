@@ -5,5 +5,9 @@ $_genv = [
 	'db_user' => '',
 	'db_password' => '',
 
-	'host' => 'http://host.name'
+	'host' => 'http://host.name',
+
+    'WP_DEBUG' => true,
+    'SCRIPT_DEBUG' => false,
+    'AUTOMATIC_UPDATER_DISABLED' => true
 ];

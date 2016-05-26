@@ -45,6 +45,8 @@ define('WP_HOME', $_genv['host']);
 define('WP_SITEURL', $_genv['host'].'/wp');
 define('UPLOADS', '../uploads');
 
+define('AUTOMATIC_UPDATER_DISABLED', $_genv['AUTOMATIC_UPDATER_DISABLED']);
+
 
 /**#@+
  * Authentication Unique Keys and Salts.
@@ -86,8 +88,8 @@ $table_prefix  = 'wp_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', true);
-//define('SCRIPT_DEBUG', true);
+define('WP_DEBUG', $_genv['WP_DEBUG']);
+define('SCRIPT_DEBUG', $_genv['SCRIPT_DEBUG']);
 
 /* That's all, stop editing! Happy blogging. */
 
