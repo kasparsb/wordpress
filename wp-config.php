@@ -46,6 +46,7 @@ define('WP_SITEURL', $_genv['host'].'/wp');
 define('UPLOADS', '../uploads');
 
 define('AUTOMATIC_UPDATER_DISABLED', $_genv['AUTOMATIC_UPDATER_DISABLED']);
+define('DISABLE_WP_CRON', $_genv['DISABLE_WP_CRON']);
 
 
 /**#@+

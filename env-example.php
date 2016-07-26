@@ -9,5 +9,7 @@ $_genv = [
 
     'WP_DEBUG' => true,
     'SCRIPT_DEBUG' => false,
-    'AUTOMATIC_UPDATER_DISABLED' => true
+    'AUTOMATIC_UPDATER_DISABLED' => true,
+
+    'DISABLE_WP_CRON' => true
 ];
