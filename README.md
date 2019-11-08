@@ -14,15 +14,15 @@ WP setup with custom directory structure. There is also WP install scripts which
 
 `chmod +x ./upgrade-wp.sh`
 
-Run install script to download latest wordpress version.
-
-*(By default WP themes are not moved to `./app/themes direcotory`!)*
+Run install script to download latest wordpress version. *(By default WP themes are not moved to `./app/themes direcotory`!)*
 
 `./upgrade-wp.sh `
+
 
 Download latest WP and copy default WP themes to ./app/themes directory
 
 `./upgrade-wp.sh --themes`
+
 
 Download only WP default themes without upgrading WP core
 
@@ -37,9 +37,9 @@ Copy `env-example.php` to `env.php`
 
 For example
 
-`http://example.com`
+`'host' => 'http://example.com'`
 
-`http://localhost:8080` If you run on localhost with custom port number
+`'host' => 'http://localhost:8080'` If you run on localhost with custom port number
 
 
 ## Other notes
