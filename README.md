@@ -11,7 +11,7 @@ This configuration implements custom directory structure. Themes, plugins and up
 
 ## Wordpress core install script
 
-Use `./upgrade-wp.sh` to download **latest** WordPress version. It can download only core files, core files with default themes, only themes
+Use `./upgrade-wp.sh` to download **latest** WordPress version. It can download `only core files`, `core files with default themes` or `only default themes`
 
 > Note: Before executing WP install script, check if there is execute premission set on wp install script
 ```
