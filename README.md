@@ -43,6 +43,9 @@ Copy `env-example.php` to `env.php`
 For example
 ```
 'host' => 'http://example.com'
+or
+'host' => 'http://example.com:8080'
+or
 'host' => 'http://localhost:8080' If you run on localhost with custom port number
 ```
 
@@ -50,5 +53,5 @@ For example
 ## Other notes
 WP default directory structure is changed. Use these links to access wp-admin and admin-ajax.php 
 
-- `http://example.com/**wp**/wp-admin`
-- `http://example.com/**wp**/wp-admin/admin-ajax.php`
+- `http://example.com/wp/wp-admin`
+- `http://example.com/wp/wp-admin/admin-ajax.php`
