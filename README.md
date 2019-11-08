@@ -43,9 +43,11 @@ Copy `env-example.php` to `env.php`
 For example
 ```
 'host' => 'http://example.com'
-or
+```
+```
 'host' => 'http://example.com:8080'
-or
+```
+```
 'host' => 'http://localhost:8080' If you run on localhost with custom port number
 ```
 
