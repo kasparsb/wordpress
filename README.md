@@ -10,17 +10,19 @@ WP setup with custom directory structure. There is also WP install scripts which
 
 ## Wordpress core install script
 
+Use `./upgrade-wp.sh` to download **latest** WordPress version. It can download only core files, core files with default themes, only themes
+
 > Note: Before executing WP install script, check if there is execute premission on wp install script
 ```
 chmod +x ./upgrade-wp.sh
 ```
 
-Run install script to download latest wordpress version. *(By default WP themes are not moved to `./app/themes direcotory`!)*
+Download latest WP version. *(By default WP themes are not moved to `./app/themes direcotory`!)*
 ```
 ./upgrade-wp.sh 
 ```
 
-Download latest WP and copy default WP themes to ./app/themes directory
+Download latest WP version and copy default WP themes to `./app/themes directory`
 ```
 ./upgrade-wp.sh --themes
 ```
