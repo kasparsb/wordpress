@@ -10,23 +10,25 @@ WP setup with custom directory structure. There is also WP install scripts which
 
 ## Wordpress core install script
 
-*Note: you should have execute premission set on wp install script*
-
-`chmod +x ./upgrade-wp.sh`
+> Note: Before executing WP install script, check if there is execute premission on wp install script
+```
+chmod +x ./upgrade-wp.sh
+```
 
 Run install script to download latest wordpress version. *(By default WP themes are not moved to `./app/themes direcotory`!)*
-
-`./upgrade-wp.sh `
-
+```
+./upgrade-wp.sh 
+```
 
 Download latest WP and copy default WP themes to ./app/themes directory
-
-`./upgrade-wp.sh --themes`
-
+```
+./upgrade-wp.sh --themes
+```
 
 Download only WP default themes without upgrading WP core
-
-`./upgrade-wp.sh --onlythemes`
+```
+./upgrade-wp.sh --onlythemes
+```
 
 ## Configuration
 Copy `env-example.php` to `env.php`
@@ -36,10 +38,10 @@ Copy `env-example.php` to `env.php`
 **You should set host name where your site is confugured at**
 
 For example
-
-`'host' => 'http://example.com'`
-
-`'host' => 'http://localhost:8080'` If you run on localhost with custom port number
+```
+'host' => 'http://example.com'
+'host' => 'http://localhost:8080' If you run on localhost with custom port number
+```
 
 
 ## Other notes
