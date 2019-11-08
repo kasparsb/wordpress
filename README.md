@@ -3,16 +3,10 @@ WP setup with custom directory structure. There is also WP install scripts which
 
 ## Directory structure
 
-Themes and plugins lives here
-`./app/themes`
-`./app/plugins`
-
-Uploads directory
-`./uploads`
-
-WordPress core files lives here
-
-`./wp`
+- `./app/themes` Themes directory
+- `./app/plugins` Plugins directory
+- `./uploads` Uploads directory
+- `./wp` WordPress core files directory
 
 ## Wordpress core install script
 
@@ -49,8 +43,7 @@ For example
 
 
 ## Other notes
-WordPress core in this configuration is moved to ./mv direcotory. This changes wp-admin url
+WP default directory structure is changed. Use these links to access wp-admin and admin-ajax.php 
 
-`http://example.com/wp/wp-admin`
-
-`http://example.com/wp/wp-admin/admin-ajax.php`
+- `http://example.com/**wp**/wp-admin`
+- `http://example.com/**wp**/wp-admin/admin-ajax.php`
